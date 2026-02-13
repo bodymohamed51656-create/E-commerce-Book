@@ -1,0 +1,11 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+.nav{
+    background-image:  url(/img.png);
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
