@@ -15,7 +15,7 @@ export default function Navbar() {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
-  const isBookPage = location.pathname.includes("/Books") || location.pathname.includes("/single") || location.pathname.includes("/login") || location.pathname.includes("/Signup") || location.pathname.includes("/Cart") || location.pathname.includes("/Wish") || location.pathname.includes("/profile") || location.pathname.includes("/order") || location.pathname.includes("/Check");
+  const isBookPage = location.pathname.includes("/Books") || location.pathname.includes("/Single") || location.pathname.includes("/login") || location.pathname.includes("/Signup") || location.pathname.includes("/Cart") || location.pathname.includes("/Wish") || location.pathname.includes("/profile") || location.pathname.includes("/order") || location.pathname.includes("/Check");
   
   const cartCount = cartItems.reduce((acc, item) => acc + item.qty, 0);
 
@@ -186,3 +186,4 @@ export default function Navbar() {
   );
 
 }
+
